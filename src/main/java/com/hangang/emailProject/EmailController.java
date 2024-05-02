@@ -12,7 +12,7 @@ public class EmailController {
     @Autowired
     private EmailService emailService;
 
-    @GetMapping("/emailForm123")
+    @GetMapping("/emailForm")
     public String emailForm(){
         return "emailForm";
     }
